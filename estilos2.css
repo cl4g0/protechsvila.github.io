@@ -1,0 +1,21 @@
+html {
+  background:pink;
+}
+
+.imagen{
+	
+	text-align:center;
+	
+}
+.h1{
+	font-family:monospace;
+	text-align:center;
+	color:#830FD6;
+}
+
+.links{
+	
+  font-family:courier;
+  color: #6f75bc;
+  text-align: center;
+}
