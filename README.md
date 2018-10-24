@@ -8,4 +8,4 @@
   * [estilos.cs](https://github.com/protechsvila/protechsvila.github.io/blob/master/estilos.css)
   * [estilos2.css](https://github.com/protechsvila/protechsvila.github.io/blob/master/estilos2.css)
   
-  # [VSUALIZAR](https://protechsvila.github.io/)
+  # [VISUALIZAR](https://protechsvila.github.io/)
