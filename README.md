@@ -1,6 +1,6 @@
 # Repositorio de [PROTECHSVILA](https://protechsvila.wordpress.com/) 😁😁
 
-![logo.png](logo.png)
+![logo.png](imagenes/logo.png)
 
 * Archivos de las tarjetas
   * [tarjeta.html](https://github.com/protechsvila/protechsvila.github.io/blob/master/tarjeta.html)
