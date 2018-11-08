@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+  <title>Bootstrap con carrusel</title>
+  <meta charset="utf-8">
+  <!-- Responsiveness --> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--   Consulta as .css e os scripts en .js para que funcione Bootstrap 4-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+  /* Veña vale.... aquí si podemos definir tanto esa clase coma img  */
+  .carousel-inner{
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+
+<body>
+
+
+<table>
+  <tr>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+  </tr>
+  <tr>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+  </tr>
+  <tr>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+    <td><a href="tab.html"><img src="fotos/foto2.jpg" width="100%" alt="100%"></a></td>
+  </tr>
+</table>
+  ​
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    ​
+    <!-- Indicadores: raias debaixo das imaxes-->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0"></li>
+      <li data-target="#demo" data-slide-to="1" class="active"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- Slideshow -->
+    <div class="carousel-inner">
+      <!-- Imaxe enooorme -->
+      <div class="carousel-item">
+        <img src="fotos/wrc.jpeg" alt="Aquí debería saír a miña imaxe" width="100%" height="100%">
+      </div>
+
+      <!--    Quen leva active é o primeiro que sae-->      
+      <div class="carousel-item active" >
+        <img src="fotos/doge.jpg" alt="Aquí debería saír a miña imaxe" width="100%" height="100%">
+      </div>
+      <!-- Imaxe chiquitina -->
+      <div class="carousel-item">
+        <img src="fotos/snow.jpg" alt="Aquí debería saír a miña imaxe" width="100%" height="100%">
+      </div>
+
+    </div>
+
+    <!-- Frechiñas dereita e esquerda -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  ​
+</body>
+</html>
