@@ -1,18 +1,69 @@
 <html>
 	<head>
 			<meta charset="UTF-8">
-			<link href="estilos2.css"rel="stylesheet" type="text/css">
-			<title>PORTADA</title> 
+			<link href="estilos234.css"rel="stylesheet" type="text/css">
+			<title>PORTADA</title>
+
+  <!-- Responsiveness --> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--   Consulta as .css e os scripts en .js para que funcione Bootstrap 4-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+  /* Veña vale.... aquí si podemos definir tanto esa clase coma img  */
+  .carousel-inner{
+    width: 50%;
+    height: 50%;
+  }
+</style>
+
+<link rel="icon" type="image/jpg" href="fotos7/html.jpg">
 
 	</head>
 
-	<body>
-			<br>
-			<h1 class="h1">Bienvenidos a mi página de github donde teneis enlace a todos mi trabajos 😁😁</h1>
-			<h2 class="links"><a href="tarjeta.html">90 Aniversario de los Oscar 😜😜</a></h2>
-			<h2 class="links"><a href="Comidas1/comida.html">Mastechefeiros 🥔🍱🍲</a></h2>
-			<h2 class="links"><a href="carrousel.html">Bootstrap con carrusel 👏👏</a></h2>
-			<h2 class="links"><a href="periodico/index.html">Periodico 😆😆</a></h2>
+	<body  class="black">
+    <br>
+		<h1 class="h1"><a class="alink" href="https://protechsvila.wordpress.com">Bienvenidos a mi página de github donde teneis enlace a todos mi trabajos</a></h1>
+<br>
+<center><img class="fotogit" src="fotos7/github.png" width="400px"></center>
+<br>
+<br>
+
+
+<center>
+<div id="demo" class="carousel slide" data-ride="carousel">  ​
+    <!-- Slideshow -->
+   <div class="carousel-inner">
+      <!-- Imaxe enooorme -->
+      <div class="carousel-item active">
+        <h2 class="links"><a class="colora" href="tarjeta.html">Tarjetas😜😜</a></h2>
+      </div>
+
+ <!-- Frechiñas dereita e esquerda -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+      <!--    Quen leva active é o primeiro que sae-->      
+      <div class="carousel-item" >
+      <h2 class="links"><a class="colora" href="Comidas1/comida.html">Mastechefeiros 🥔🍱🍲</a></h2>
+      </div>
+
+      <!-- Imaxe chiquitina -->
+      <div class="carousel-item">
+       <h2 class="links"><a class="colora" href="carrousel.html">Bootstrap con carrusel 👏👏</a></h2>
+       </div>
+
+      <div class="carousel-item">
+      <h2 class="links"><a class="colora" href="periodico/index.html">Periodico 😆😆</a></h2>
+      </div>
+     </div>
+</center>
+
 	</body>
 
 

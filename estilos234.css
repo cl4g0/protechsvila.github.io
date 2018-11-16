@@ -1,0 +1,76 @@
+.black{
+
+	background-color: black;
+}
+
+
+.imagen{
+	
+	text-align:center;
+	
+}
+
+
+a{
+
+	font-size: 1.54em;
+}
+
+h1:hover{
+
+	background-color: #711c7d;
+	border-radius: 20%
+}
+
+a:hover{
+
+color: yellow;
+ 
+}
+
+.colora{
+	color: #18f634;
+}
+
+.alink{
+
+	color: yellow;
+	text-decoration: none;
+	
+}
+
+.h1{
+	font-family: Monoton;
+	text-align:center;
+	font-size: 7em;
+	color: red;
+	text-decoration: none;
+
+}
+
+.links{
+	
+  font-family:courier;
+  color: #6f75bc;
+  text-align: center;
+
+}
+
+.fotogit{
+
+ border-radius:65%;
+
+}
+
+.fotoht{
+
+ float: right;
+ border-radius:65%;
+
+}
+
+.block{
+ 
+ float:center;
+ 
+}
